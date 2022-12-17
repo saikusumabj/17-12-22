@@ -1,0 +1,60 @@
+
+20.) Write a Python program to get a string which is n (non-negative integer) copies of a given string?
+A)a='text'
+b='py'
+print("copy of the given string:",a*3,b*3)
+
+35.) Write a Python program that will return true if the two given integer values are equal or their sum or difference is 5?
+A)x=7
+y=2
+if (x==y) and (x+y==5)or(x-y==5):
+    print(True)
+else:
+     print(False)   
+
+48.) Write a Python program to parse a string to Float or Integer?
+A)n="3.14"
+print(float(n))
+print(int(float(n)))
+
+54.) Write a Python program to get the current username?
+A)import os
+os.getlogin()
+import os
+os.path.expanduser('~')
+
+62.) Write a Python program to convert all units of time into seconds?
+A)days=int(input("Enter your days:"))*3600*24
+hours=int(input("Enter your hours:"))*3600
+minutes=int(input("Enter your minutes:"))*60
+seconds=int(input("enter your seconds:"))
+time=days+hours+minutes+seconds
+print("The amount of seconds",time)
+
+73.) Write a Python program to calculate midpoints of a line?
+A)x1=int(input("enter your value:"))
+y1=int(input("Enter your number:"))
+x2=int(input("enter your value:"))
+y2=int(input("enter your number:"))
+z=(x1+x2)/2
+f=(y1+y2)/2
+print("The midpoint of xline is:",z)
+print("The midpoint of yline is:",f)
+
+98.) Write a Python program to get the system time?
+A-import time
+print(time.ctime())
+print()
+
+47.) Write a Python program to find out the number of CPUs using?
+A)import os 
+os.cpu_count()
+
+94.) Write a Python program to convert a byte string to a list of integers?
+A)x=b'Abc'
+print(list(x))
+
+87.) Write a Python program to get the size of a file?
+A)import os
+file_stat=os.stat('mymodule.py')
+print(file_stat.st_size)
